@@ -1,0 +1,608 @@
+body {
+	background-color: white;
+	font-family: Perpetua;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0;
+}
+
+html, body {
+		overflow-x: hidden;
+}
+
+@media (max-width: 450px)
+{
+    .navbackground
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 950px)
+{
+    .top2
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .top1 p
+    {
+        width: 30%;
+				margin: -6% 0% -10% -1%;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .whitebackground
+    {
+        height: 30%;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .top3 p
+    {
+				width: 30%;
+				margin: -24%;
+				margin-top: -16%;
+				font-size: 1.5vh;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .reserve
+    {
+        width: 30%;
+				text-align: center;
+				margin-left: -10%;
+				padding-top: -10%;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .top1
+    {
+      	font-size: 1.7vh;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .top1 h1
+    {
+				margin-top: 0%;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .menu2
+    {
+        width: 30%;
+				text-align: left;
+				margin-left: -23.5%;
+				padding-top: 27%;
+				padding-bottom: 0%;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .hiring2
+    {
+        width: 30%;
+				text-align: left;
+				margin-left: -20%;
+				padding-top: -10%;
+				font-size: 1.6vh;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .hiring2 p
+    {
+        width: 90%;
+				font-size: 1.6vh;
+    }
+}
+
+@media (max-width: 900px)
+{
+    .hiring1
+    {
+        display: none;
+				text-align: center;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .contact_us
+    {
+        margin-top: %;
+				margin-left: -15%;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .location2 h1
+    {
+				margin-top: 40%;
+        margin-left: -15%;
+				font-size: 2.5vh;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .location2 h2
+    {
+				font-size: 2vh;
+    }
+}
+
+
+@media (max-width: 450px)
+{
+    .location1 h1
+    {
+				margin-top: 10%;
+        margin-left: -15%;
+				font-size: 2vh;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .location1 a
+    {
+				display: none;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .header-container
+    {
+				display: none;
+    }
+}
+
+@media (min-width: 450px)
+{
+    .mobile-container
+    {
+				display: none;
+    }
+}
+
+
+.clearboth {
+	clear:both;
+}
+
+.logo img {
+
+	width: 100%;
+ height: auto;
+}
+
+.header-container {
+ height: 100%;
+ width: 100%;
+}
+
+.header-container img {
+	width: 100%;
+ height: auto;
+}
+
+.logo {
+	text-align:center;
+	height: auto;
+	max-width: auto;
+	padding: 0px 65px 0px 0px;
+	background-size: contain;
+}
+
+.navbackground {
+	height: 91px;
+	margin: 0px;
+}
+
+.navbackground1 {
+	height: 50px;
+	margin: 0px;
+	background-color: #7a0026;
+}
+
+nav {
+	background-color: #7a0026;
+	text-align: center;
+	padding: 30px;
+	margin-top: -10px;
+}
+
+nav a {
+	color:white;
+	text-decoration:none;
+	margin: 0px 40px 0px 0px;
+	font-size: 150%;
+}
+
+.whitebackground {
+	height: auto;
+	min-width: 100%;
+	margin:auto;
+	background-color:#ffffff;
+}
+
+.top1 {
+	margin:0px 0px 30px 70px;
+	background-color:;
+	float:left;
+	white-space: pre-wrap;
+}
+
+.top1 p {
+	white-space: pre-wrap;
+}
+
+.top2 {
+	margin:0px 0px 0px 20px;
+	background-color:;
+	float:left;
+	height: 100%;
+}
+
+.welcome {
+	width:980px;
+	margin:0px auto;
+	background-color:;
+
+}
+
+p {
+    width:420px;
+	line-height: 35px;
+	font-size: 1.6vh;
+	font-family: Perpetua;
+}
+
+h2 {
+	font-family: Perpetua
+}
+
+.top1 h1 {
+    color:;
+    font-size: 320%;
+	font-family: Perpetua Titling MT;
+
+}
+
+.reserve {
+	padding-left: 80px;
+	padding-top: 20px;
+}
+
+.menubackground {
+	background-image:url("../images/menu_back_real.jpg");
+	height: 449px;
+	width: 100%;
+}
+
+.menu {
+	width:980px;
+	margin:0px auto;
+	background-color:;
+
+}
+
+.top3 {
+
+	margin:0px 0px 30px 250px;
+	background-color:;
+	float:left;
+	text-align:center;
+	font-size: 110%;
+	color:white;
+}
+
+.top3 h1 {
+	font-size: 320%;
+	font-family: Perpetua Titling MT;
+}
+
+.reserve {
+	padding-left: 80px;
+	padding-top: 20px;
+}
+
+.redbackground {
+	margin:0px;
+	background-color:#531919;
+	height: 470px;
+}
+
+.redbackground2 {
+	margin:0px;
+	background-color:#531919;
+	height: 1200px;
+}
+
+.redbackground3 {
+	margin:0px;
+	background-color:#531919;
+	height: 700px;
+}
+
+.redbackground4 {
+	margin:0px;
+	background-color:#531919;
+	height: 400px;
+}
+
+.redbackground5 {
+	margin:0px;
+	background-color:#531919;
+	height: 800px;
+}
+
+.hiring {
+	width:980px;
+	margin:0px auto;
+	background-color:;
+}
+
+.hiring1 {
+
+	margin:90px 0px 30px 70px;
+	background-color:;
+	float:left;
+}
+
+.hiring2 {
+	width:350px;
+	margin:10px 0px 30px 50px;
+	background-color:;
+	float:left;
+	height: 400px;
+	color:white;
+}
+
+.hiring2 h1 {
+	font-size: 300%;
+	font-family: Perpetua Titling MT;
+}
+
+.contact_us {
+	padding-left: 80px;
+	padding-top: 12px;
+}
+
+.whitebackground2 {
+	margin:0px;
+	background-color:white;
+	height: 214px;
+}
+
+.location {
+	width:980px;
+	margin:0px auto;
+	background-color:;
+}
+
+.location1 {
+
+	margin:30px 0px 30px 120px;
+	background-color:;
+	float:left;
+}
+
+.location2 {
+	width:300px;
+	margin:-185px 0px 30px 80px;
+	background-color:;
+	float:left;
+
+}
+
+.location2 h2 {
+	line-height:40px;
+	font-family: Perpetua;
+}
+
+footer {
+	background-color:#76141a;
+	text-align:center;
+	padding-top:35px;
+	color: #39b54a;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+footer a {
+	color:white;
+	text-decoration:none;
+	margin: 0px 20px 0px 0px;
+	font-size: 120%;
+}
+
+.spacer2 {
+	height:54px;
+	background-color: #531919;
+	margin: 0px auto;
+}
+
+.spacetext {
+	text-align:center;
+	padding-top:20px;
+	color: white;
+	margin: 0px auto;
+	text-decoration:none;
+}
+
+.spacetext a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.spacetext a:visited {
+    color: white;
+		text-decoration: none;
+}
+
+.spacetext a:hover {
+    color: grey;
+		text-decoration: none;
+}
+
+.nav1 {
+	width: 600px;
+	padding-top: 30px;
+	padding-left: 160px;
+}
+
+.footer1 {
+	padding: 10px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.footerbackground {
+	height:151px;
+	margin:0px;
+	background-color:#76141a;
+}
+
+.aboutback1 {
+	width:980px;
+	margin:0px auto;
+	background-color:;
+}
+
+.aboutback2 {
+	margin:30px 0px 30px 120px;
+	background-color:;
+	padding-top: 20px;
+	color:white;
+}
+
+.ribbon {
+	float: left;
+    margin: 0px 0px 0px 0px;
+}
+
+.aboutback2 p {
+	width: 600px;
+	font-size: 110%;
+}
+
+.menuback1 {
+	width:980px;
+	margin:0px auto;
+	background-color:;
+}
+
+.menuback2 {
+	margin:30px 0px 30px -60px;
+	background-color:;
+	padding-top: 20px;
+	color:white;
+	text-align:center;
+
+}
+
+.menuback2 h1 {
+	text-align: center;
+}
+
+.menuback2 h2 {
+	text-align: center;
+	font-size: 100%;
+
+}
+
+.contactback2 h1 {
+	text-align: center;
+	font-size: 180%;
+}
+
+.contactback2 h2 {
+	text-align: center;
+	font-size: 130%;
+}
+
+.menuback2 p {
+	text-align: center;
+	font-size: 100%;
+	margin-left: 310px;
+
+}
+
+.contactback1 {
+	width:980px;
+	margin:0px auto;
+	background-color:;
+}
+
+.contactback2 {
+	margin:30px 0px 30px -60px;
+	background-color:;
+	padding-top: 20px;
+	color:white;
+	text-align:center;
+
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #531919;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #531919;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: white;
+  color: white;
+}
