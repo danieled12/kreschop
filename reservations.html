@@ -4,27 +4,46 @@
 <title>Kres Chophouse Reservations</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<header>
+	<div class="mobile-container">
 
-	<div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
-
-</header>
-
-<div class="navbackground1">
-	<nav>
+	<!-- Top Navigation Menu -->
+	<div class="topnav">
+	<a href="index.html" class="active"><img src="images/logo.png"></a>
+	<!-- Navigation links (hidden by default) -->
+	<div id="myLinks">
 		<a href="index.html">HOME</a>
 		<a href="menu.html">MENU</a>
 		<a href="about.html">ABOUT</a>
 		<a href="reservations.html">RESERVATIONS</a>
 		<a href="contact.html">CONTACT</a>
-	</nav>
-</div>
+	</div>
+	<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	</a>
+	</div>
+	</div>
 
-<div class="clearboth"></div>
+	<div class="header-container">
+		<div class="header-image"><img src="images/header_image2.jpg">
+		</div>
+	</div>
+
+	<div class="navbackground">
+		<nav>
+			<a href="index.html">HOME</a>
+			<a href="menu.html">MENU</a>
+			<a href="about.html">ABOUT</a>
+			<a href="reservations.html">RESERVATIONS</a>
+			<a href="contact.html">CONTACT</a>
+		</nav>
+	</div>
 
 <div class="redbackground4">
 	<div class="menuback1">
@@ -33,47 +52,51 @@
 				<img src="images/reservations.png">
 		</div>
 	</div>
-	
+
 </div>
-	
+
 <div class="whitebackground2">
 	<div class="location">
 		<div class="location1">
 			<h1>17 W. Church St. Orlando,</h1>
 			<h1>Florida 32801</h1>
-		
-		<a href="http://www.twitter.com" target=_blank"><img src="images/twitter.png"></a>
-		<a href="http://www.facebook.com" target=_blank"><img src="images/facebook.png"></a>
+
+		<a href="http://www.twitter.com" target="_blank"><img src="images/twitter.png"></a>
+		<a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png"></a>
 	</div>
 		</div>
 	</div>
 		<div class="location2">
 		<h1>Dinner Service:</h1>
-			<h2>11:30am - 12:00am M-F 
+			<h2>11:30am - 12:00am M-F
 				5:00pm - 12:00am Saturday
 			</h2>
 		</div>
-</div>
 <div class="clearboth"></div>
 
 <div class="footerbackground">
+	<div class="footer1">
 	<footer>
-		<p>
-			<div class="nav1">
-				<a href="index.html">HOME</a> &nbsp &nbsp
-				<a href="menu.html">MENU</a> &nbsp &nbsp
-				<a href="about.html">ABOUT</a> &nbsp &nbsp
-				<a href="reservations.html">RESERVATIONS</a> &nbsp &nbsp
-				<a href="contact.html">CONTACT</a>
-			</div>
-		</p>
-			
-		<div class="footer1">
-			&copy; 2017 All Rights  |  Design by <a href="http://www.danieledegruttola.com" target="_blank"> Daniele de Gruttola
-
+		<a href="index.html">HOME</a>
+		<a href="menu.html">MENU</a>
+		<a href="about.html">ABOUT</a>
+		<a href="reservations.html">RESERVATIONS</a>
+		<a href="contact.html">CONTACT</a>
 	</footer>
-	<div class="clearboth"></div>
 </div>
+</div>
+
+
+	<div class="clearboth"></div>
+
+	<div class="spacer2">
+		<div class="spacetext">
+	&copy; 2018 All Rights Reserved | Design by <a href="http://www.danielesdesign.com" target="_blank"> Daniele de Gruttola </a>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="script/logic.js"></script>
 
 </body>
 </html>
